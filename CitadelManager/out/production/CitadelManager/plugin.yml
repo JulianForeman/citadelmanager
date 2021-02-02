@@ -1,0 +1,27 @@
+name: CitadelManager
+version: 1.0
+author: Bluuish
+main: com.bluuish.citadelmanager.CitadelManager
+api-version: 1.12
+commands:
+  forcecitadel:
+    description: Forces the dark citadel event to start and automatically removes the previous overlord.
+    usage: /<command>
+  activatecitadel:
+    description: Activates the dark citadel once region flags have been assigned.
+    usage: /<command>
+  disablecitadel:
+    description: Deactives the dark citadel event.
+    usage: /<command>
+  checkcitadel:
+    description: Checks when the next dark citadel event starts.
+    usage: </command>
+  stopcitadel:
+    description: Stops the dark citadel event if it's active.
+    usage: </command>
+
+depend:
+  - WorldGuard
+  - WorldEdit
+  - Vault
+  - LuckPerms
