@@ -1,0 +1,19 @@
+################################################################
+###                                                          ###
+###                     Citadel Manager                      ###
+###                                                          ###
+################################################################
+
+
+#Sets how much money is dropped from players on death in the citadel during the event
+citadel-death-money: 1000
+#Sets how long the citadel waits after ending before starting again in hours.
+citadel-cooldown-hours: 12
+#Sets how long it takes to claim the throne in seconds.
+citadel-capture-time: 300
+#Sets the group name the winner of the event will receive. --DO NOT REMOVE QUOTES!
+citadel-winner-group: "overlord"
+#Sets the teleport location coordinates for players who claim the throne.
+citadel-tp-x: 0
+citadel-tp-y: 64
+citadel-tp-z: 0
